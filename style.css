@@ -1,0 +1,84 @@
+* {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+nav {
+   
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: rgb(245, 230, 17);
+}
+
+#myform {
+    height: 50%;
+    display: grid;
+    width: 85%;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+#myform>label {
+   
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 3px;
+}
+
+#myform>label>img {
+    height: 50%;
+    width: 98%;
+    margin: auto;
+    border-radius: 20px;
+}
+#myform>label>input {
+    padding: 10px;
+    width: 98%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+button {
+    display: flex;
+    width: auto;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgb(229, 58, 58);
+    border-radius: 10px;
+}
+
+.display {
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    visibility: hidden;
+}
+
+#display {
+    border: 2px solid rgb(75, 74, 74);
+    background-color: rgb(73, 73, 73);
+    visibility: visible;
+}
+
+.loding {
+    display: flex;
+    margin: auto;
+    width: 30%;
+    visibility: hidden;
+}
+
+#loding {
+    visibility: visible;
+}
+
+.loding img {
+    width: 100%;
+    margin: auto;
+}
